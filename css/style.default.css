@@ -321,11 +321,11 @@ INTRO
   color: #ffffff;
 }
 .text-intro span {
-  color: #ff7473;
+  color: #a5cd39;
 }
 @media (min-width: 1200px) {
   .text-intro {
-    background-image: -webkit-linear-gradient(left, color-stop(#ff7473 0%), color-stop(#46426f 60%));
+    background-image: -webkit-linear-gradient(left, color-stop(#ff9300 0%), color-stop(#46426f 60%));
     background-image: linear-gradient(to right, #ff7473 0%, #46426f 60%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);
@@ -834,12 +834,12 @@ NAVBAR
     padding-top: 23px;
   }
   .navbar ul.nav > li > a:hover {
-    border-top-color: #ff7473;
+    border-top-color: #f16522;
   }
   .navbar ul.nav > li.active > a,
   .navbar ul.nav > li.open > a {
     text-decoration: none !important;
-    border-top-color: #ff7473;
+    border-top-color: #f16522;
   }
 }
 .navbar-toggle {
@@ -1214,17 +1214,17 @@ STYLE SWITCHER FOR DEMO
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #41a6ca;
+  color: #a5cd39;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffa7a6;
+  color: #f16522;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffa7a6;
+  color: #f16522;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
