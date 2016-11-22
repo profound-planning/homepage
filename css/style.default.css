@@ -39,7 +39,7 @@ section.background-gray-lightest {
   border-bottom: solid 1px #cdcdcd;
 }
 section.background-secondary {
-  background: #746ea9;
+  background: #323643;
   border-top: solid 1px #46426f;
   border-bottom: solid 1px #46426f;
 }
@@ -60,6 +60,18 @@ section.background-secondary {
 .italic {
   font-style: italic;
   font-family: "Georgia", "Times New Roman", Times, serif;
+}
+.bold {
+    font-weight: 700;
+}
+.p-orange {
+    color: #f16522;
+}
+.p-green {
+    color: #a5cd39;
+}
+.p-gray {
+    color: #323643;
 }
 .heading {
   text-align: left;
@@ -344,7 +356,7 @@ SERVICES / INTEGRATIONS
 
 */
 .services {
-  margin-top: 80px;
+  margin-top: 20px;
   text-align: center;
 }
 .services .services-heading {
@@ -575,6 +587,29 @@ a:active {
   width: 60px;
   border-radius: 30px;
   margin-left: 10px;
+}
+.mvmt-wrap {
+    margin-bottom: 40px;
+}
+.mvmt-text {
+    background-color: #fff;
+    color: #999999;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+}
+.mvmt-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 15px;
+  color: #41a6ca;
+  font-size: 40px;
+  float: left;
+  text-align: center;
+
 }
 .box-simple {
   text-align: center;
