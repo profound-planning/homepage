@@ -518,6 +518,11 @@ a:active {
   padding: 0;
   margin-bottom: 40px;
 }
+.testimonial-body {
+    max-height: 475px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 .testimonials .item {
   list-style-type: none;
   margin: 0 5px;
