@@ -587,7 +587,7 @@ a:active {
   margin: 0;
   font-size: 14px;
 }
-.testimonials .item .testimonial .name-picture img {
+.testimonials .item .testimonial .name-picture img, .circleimg {
   float: right;
   width: 60px;
   border-radius: 30px;
