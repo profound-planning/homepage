@@ -281,6 +281,20 @@ fieldset[disabled] .btn-white.active {
   background-color: #fff;
   border-color: #fff;
 }
+.logo-sq {
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  border: solid 1px #f16522;
+  color: #f16522;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-size: 30px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
 .icon {
   display: inline-block;
   width: 60px;
@@ -343,8 +357,8 @@ INTRO
   color: #a5cd39;
 }
 .tagline-cont {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 4%;
+  margin-bottom: 20%;
 }
 .commitment-cont {
   padding-top: 9%;
@@ -402,7 +416,7 @@ SERVICES / INTEGRATIONS
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 60px;
-  color: #999999;
+  color: #33334d;
 }
 /*
 
