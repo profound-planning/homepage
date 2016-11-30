@@ -2,11 +2,11 @@
 ========================================= 
 ========================================= 
 
-Startup Template By Bootstrapious.com 
+PROfound Planning Homepage - Default Stylesheet
 
 ========================================= 
 ========================================= */
-/* variant 4 - red */
+
 /*
 
 =====================
@@ -39,7 +39,7 @@ section.background-gray-lightest {
   border-bottom: solid 1px #cdcdcd;
 }
 section.background-secondary {
-  background: #323643;
+  background: #33334d;
   border-top: solid 1px #46426f;
   border-bottom: solid 1px #46426f;
 }
@@ -71,7 +71,7 @@ section.background-secondary {
     color: #a5cd39;
 }
 .p-gray {
-    color: #323643;
+    color: #33334d;
 }
 .heading {
   text-align: left;
@@ -330,11 +330,27 @@ INTRO
 .text-intro h2,
 .text-intro h3,
 .text-intro h4 {
-  color: #ffffff;
+  color: #33334d;
 }
-.text-intro span {
+/*.text-intro span {
+  color: #a5cd39;
+}*/
+.tagline {
+  color: #33334d;
+  font-weight: 400;
+}
+.text-intro span.rotate {
   color: #a5cd39;
 }
+.tagline-cont {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.commitment-cont {
+  padding-top: 9%;
+  padding-left: 6%;
+}
+/*
 @media (min-width: 1200px) {
   .text-intro {
     background-image: -webkit-linear-gradient(left, color-stop(#ff9300 0%), color-stop(#46426f 60%));
@@ -348,6 +364,7 @@ INTRO
     background: #46426f;
   }
 }
+*/
 /*
 
 =====================
@@ -460,7 +477,7 @@ EKKO LIGHTBOX
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
-.ekko-lightbox-nav-overlay a:empty {
+.ekko-lightbox-n navlogo-smav-overlay a:empty {
   width: 49%;
   color: transparent;
 }
@@ -882,10 +899,13 @@ NAVBAR
     border-top-color: #f16522;
   }
 }
+.navlogo-sm {
+    padding-top:6%;
+}
 .navbar-toggle {
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #41a6ca;
+  color: #f16522;
 }
 ul.dropdown-menu li a {
   -webkit-transition: all 0.2s ease-out;
@@ -1360,7 +1380,7 @@ STYLE SWITCHER FOR DEMO
 /* scaffolding */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.55;
   color: #000000;
   background-color: #ffffff;
