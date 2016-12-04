@@ -283,10 +283,11 @@ fieldset[disabled] .btn-white.active {
 }
 .logo-sq {
   display: inline-block;
-  width: 85px;
-  height: 85px;
-  line-height: 85px;
-  border: solid 1px #f16522;
+  width: 110px;
+  height: 110px;
+  border-radius: 55px;
+  line-height: 110px;
+  border: solid 2px #f16522;
   color: #f16522;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -294,6 +295,9 @@ fieldset[disabled] .btn-white.active {
   font-size: 30px;
   margin: 0 auto 30px;
   text-align: center;
+}
+.logo-sq img {
+  vertical-align: baseline !important;
 }
 .icon {
   display: inline-block;
@@ -358,11 +362,10 @@ INTRO
 }
 .tagline-cont {
   margin-top: 4%;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
-.commitment-cont {
-  padding-top: 9%;
-  padding-left: 6%;
+.header-scroll {
+  margin-bottom: 4%;
 }
 /*
 @media (min-width: 1200px) {
@@ -379,6 +382,32 @@ INTRO
   }
 }
 */
+
+
+/*
+
+=====================
+COMMITMENT/ABOUT US
+=====================
+
+*/
+/*#commitment {
+    background-image: url('../img/WordCloud_2c-rs2.png');
+    background-size: cover;
+}*/
+.commitment-cont {
+  padding-top: 9%;
+  padding-left: 6%;
+}
+#commitment .row {
+    padding-bottom: 3%;
+}
+#about {
+    background-image: url('../img/gray-globe-bg.png');
+    background-size: cover;
+}
+
+
 /*
 
 =====================
