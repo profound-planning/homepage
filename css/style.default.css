@@ -447,6 +447,31 @@ SERVICES / INTEGRATIONS
   margin-bottom: 60px;
   color: #33334d;
 }
+#integrations div.box-services p {
+  color: #000;
+}
+
+/*
+
+=====================
+TESTIMONIALS - CLIENT
+=====================
+
+*/
+section#ctestimonials {
+    background-image: url('../img/WordCloud_Orange-rs1.png');
+    background-size: cover;
+}
+#ctestimonials h2 {
+    color: #fff;
+}
+section#atestimonials {
+    background-image: url('../img/WordCloud_Green-rs1.png');
+    background-size: cover;
+}
+
+
+
 /*
 
 =====================
@@ -619,7 +644,7 @@ a:active {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 20px;
-  height: 50px;
+  height: 65px;
 }
 .testimonials .item .testimonial .bottom .testimonial-icon {
   display: inline-block;
