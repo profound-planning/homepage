@@ -57,6 +57,9 @@ section.background-secondary {
 .section-inverse .heading:after {
   background: #fff;
 }
+.section-header {
+    padding-bottom: 5%
+}
 .italic {
   font-style: italic;
   font-family: "Georgia", "Times New Roman", Times, serif;
@@ -391,13 +394,17 @@ COMMITMENT/ABOUT US
 =====================
 
 */
-/*#commitment {
-    background-image: url('../img/WordCloud_2c-rs2.png');
+#commitment {
+    background-image: url('../img/WordCloud_2c_75.png');
     background-size: cover;
-}*/
+}
 .commitment-cont {
-  padding-top: 9%;
-  padding-left: 6%;
+    padding-top: 11%;
+    margin-top: -7%;
+    padding-bottom: 13%;
+    margin-bottom: -10%;
+    padding-left: 5%;
+    background-color: #fff;
 }
 #commitment .row {
     padding-bottom: 3%;
