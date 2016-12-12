@@ -119,6 +119,12 @@ Documentation: http://docs.sonhlab.com/tabion-metro-tab-accordion-switcher-css/
 /*========== START BACKGROUND LIST ==========*/
 
 /* Solid Colors */
+.solid-prof-blue { background:#898CFF; }
+.solid-prof-teal { background:#ED6D79; }
+.solid-prof-green { background:#a5cd39; }
+.solid-prof-orange { background:#f16522; }
+.solid-prof-pink { background:#FF89B5; }
+.solid-prof-gold { background:#FFF292; }
 .solid-lightblue { background:#E4F0F7; }
 .solid-blue { background:#00BBE2; }
 .solid-blue-2 { background:#2C84EE; }
@@ -230,7 +236,7 @@ Documentation: http://docs.sonhlab.com/tabion-metro-tab-accordion-switcher-css/
 
 /*========== START TABION ==========*/
 .tabion {
-	margin:50px 0;
+	margin:0 auto;
 	padding:10px 0;
 	list-style:none;
 	width:960px;

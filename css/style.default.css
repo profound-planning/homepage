@@ -292,6 +292,7 @@ fieldset[disabled] .btn-white.active {
   line-height: 110px;
   border: solid 2px #f16522;
   color: #f16522;
+  background-color: #fff;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -301,6 +302,10 @@ fieldset[disabled] .btn-white.active {
 }
 .logo-sq img {
   vertical-align: baseline !important;
+}
+#awards .logo-sq {
+    border: solid 2px #a5cd39;
+    color: #a5cd39;
 }
 .icon {
   display: inline-block;
@@ -448,16 +453,55 @@ SERVICES / INTEGRATIONS
   margin: 20px auto 20px;
   background: #ff7473;
 }
+#awards .services .heading:after {
+    background: #a5cd39;
+}
 .services p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 60px;
   color: #33334d;
 }
-#integrations div.box-services p {
+#leadership div.box-services p, #awards div.box-services p {
   color: #000;
 }
+section#leadership {
+    background-image: url('../img/GlobeBackground_Green.png');
+    background-size: cover;
+    padding-top: 0;
+}
+.leadership-header {
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    background-color: #a5cd39;
+    color: #fff;
+    padding-left: 20%;
+    margin-left: -30%;
+    padding-right: 20%;
+    margin-right: -30%;
+    padding-top: 2%;
+}
+section#awards {
+    background-image: url('../img/GlobeBackground_Orange.png');
+    background-size: cover;
+    padding-top: 0;
+}
 
+.awards-header {
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    background-color: #f16522;
+    color: #fff;
+    padding-left: 20%;
+    margin-left: -30%;
+    padding-right: 20%;
+    margin-right: -30%;
+    padding-top: 2%;
+}
+#awards .logo-sq img {
+    width: 105px;
+    height: 105px;
+}
 /*
 
 =====================
@@ -477,6 +521,17 @@ section#atestimonials {
     background-size: cover;
 }
 
+
+/*
+
+=====================
+SERVICES
+=====================
+
+*/
+div.tab-content {
+    padding: 10%;
+}
 
 
 /*
