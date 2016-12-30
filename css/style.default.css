@@ -423,6 +423,55 @@ COMMITMENT/ABOUT US
 /*
 
 =====================
+BENEFITS OF PARTNERSHIP
+=====================
+
+*/
+#benefits p {
+    font-size: 18px;
+}
+#benefits .col-md-6:first-child {
+    text-align: left;
+}
+#benefits .col-md-6:nth-child(2) {
+    text-align: left;
+}
+.partnership-header {
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    background-color: #a5cd39;
+    color: #fff;
+    padding-top: 2%;
+    text-align: left;
+}
+.bldw {
+    font-weight: 400;
+    color: #fff;
+}
+.benefits-text-cont:first-child {
+    width: 80%;
+    padding-left: 10%;
+}
+.benefits-text-cont:nth-child(2) {
+    width: 80%;
+    float: right;
+    padding-right: 10%;
+    padding-left: 3%;
+}
+#benefits-left-arrow {
+   width: 100%; 
+   margin-top: -20%;
+}
+#benefits-right-arrow {
+    width: 100%;
+    margin-bottom: -10%;
+}
+
+
+
+/*
+
+=====================
 SERVICES / INTEGRATIONS
 =====================
 
@@ -466,7 +515,7 @@ SERVICES / INTEGRATIONS
   color: #000;
 }
 section#leadership {
-    background-image: url('../img/GlobeBackground_Green.png');
+    background-image: url('../img/LeftGlobe_Green_Background.png');
     background-size: cover;
     padding-top: 0;
 }
@@ -475,14 +524,10 @@ section#leadership {
     margin-bottom: 5%;
     background-color: #a5cd39;
     color: #fff;
-    padding-left: 20%;
-    margin-left: -30%;
-    padding-right: 20%;
-    margin-right: -30%;
     padding-top: 2%;
 }
 section#awards {
-    background-image: url('../img/GlobeBackground_Orange.png');
+    background-image: url('../img/RightGlobe_Orange_Background.png');
     background-size: cover;
     padding-top: 0;
 }
@@ -492,10 +537,6 @@ section#awards {
     margin-bottom: 5%;
     background-color: #f16522;
     color: #fff;
-    padding-left: 20%;
-    margin-left: -30%;
-    padding-right: 20%;
-    margin-right: -30%;
     padding-top: 2%;
 }
 #awards .logo-sq img {
