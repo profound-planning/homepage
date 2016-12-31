@@ -427,6 +427,9 @@ BENEFITS OF PARTNERSHIP
 =====================
 
 */
+section#benefits {
+  background-color: #a5cd39;
+}
 #benefits p {
     font-size: 18px;
 }
@@ -467,6 +470,49 @@ BENEFITS OF PARTNERSHIP
     margin-bottom: -10%;
 }
 
+
+/*
+
+=====================
+THE TIPPING POINT
+=====================
+
+*/
+section#tipping {
+  padding-top: 30px !important;
+  padding-bottom: 0 !important;
+}
+section#tipping > h1:first-child {
+  background-color: #fff;
+  color: #f16522;
+  text-align: center;
+}
+#tipping div.wrapper {
+  background-color: #f16522;
+  padding-bottom: 90px;
+}
+h1.tipping-header {
+  background-color: #f16522;
+  color: #fff;
+}
+#hotnot {
+  width: 90%;
+  padding-top: 25%;
+}
+#tipping ul li {
+  list-style-type: none;
+  color: #33334d;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#tipping div.col-md-12 div.col-md-3:first-child ul {
+  padding-left: 0;
+}
+#tipping div.col-md-12 div:nth-child(3) ul {
+  padding-left: 20%;
+}
 
 
 /*
