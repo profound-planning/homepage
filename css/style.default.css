@@ -432,7 +432,7 @@ section#benefits {
   background-color: #a5cd39;
 }
 #benefits p {
-    font-size: 18px;
+    font-size: 20px;
 }
 #benefits .col-md-6:first-child {
     text-align: left;
@@ -503,7 +503,7 @@ h1.tipping-header {
 #tipping ul li {
   list-style-type: none;
   color: #33334d;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -560,6 +560,10 @@ SERVICES / INTEGRATIONS
 }
 #leadership div.box-services p, #awards div.box-services p {
   color: #000;
+}
+.collapse-card__body ul {
+  display: inline-block;
+  width: 48%;
 }
 section#leadership {
     background-image: url('../img/LeftGlobe_Green_Background.png');

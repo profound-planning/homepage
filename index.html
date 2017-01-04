@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Tabion CSS -->
     <link rel="stylesheet" href="css/tabion-css.css" type="text/css">
+    <!-- Paper accordion CSS -->
+    <link rel="stylesheet" href="css/paper-collapse.min.css" type="text/css">
     <!-- IE 8 Works with Hover only -->
     <!--[if lt IE 9]>
     <link rel="stylesheet" href="css/tabion-css-ie8.css" type="text/css" />
@@ -133,265 +135,183 @@
       </section>
 
 
-      <!-- Scope of Services -->
-      <section id="services" class="section" style="border: 1px solid thin;background-color:#fff">
+
+      <section id="services" class="section" style="border: 1px solid thin;background-color:#eee">
         <div class="container">
           <div class="row"> 
               <h1 class="text-center section-header p-orange">Scope of Services</h1>
-              
-           <!-- START TABION -->
-            <ul class="tabion height-500">
-            
-            <!-- Start Tab 1 -->
-            <li>
-            <input type="radio" name="tabion" id="tab11" class="none">
-            <div>
-                     <!-- Start Tab Button -->
-                <label for="tab11" class="tabtile tabtile-small solid-prof-green hovershadow-green active-sd-green light-text">
-                        <span class="light-text">Defining Goals &amp; Objectives</span>
-                </label>
-                    <!-- End Tab Button -->
-                    <!-- Start Tab Content -->
-                    <div class="tab-content animated tab-rollIn solid-prof-green light-text pos-top-100">
-                        <p class="title">Defining Goals &amp; Objectives</p>
-                        <p class="closebt"><label for="close_tabion"><img src="images/demo/close.png" alt="close button" /></label></p>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Company</li> 
-                            <li>Leadership</li> 
-                            <li>Planning Team</li>
-                            <li>Participants</li>
-                            <li>Financial</li>
-                        </ul>
-                        </div>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Sponsorship</li>
-                            <li>Attendance</li>
-                            <li>Education/Skills</li>
-                            <li>Public Relations</li>
-                            <li>Brand Awareness</li>
-                        </ul>
-                    </div>
-                    <!-- End Tab Content -->
-            </div>
-            </li>
-                <!-- End Tab 1 -->
-                
-                <!-- Start Tab 2 -->
-                <li>
-            <input type="radio" name="tabion" id="tab12" class="none">
-            <div>
-                    <!-- Start Tab Button -->
-                <label for="tab12" class="tabtile tabtile-small solid-prof-orange hovershadow-orange active-sd-orange light-text pos-left-100">
-                        <span class="light-text">Site Selection &amp; Partner Sourcing</span>
-                    </label>
-                    <!-- End Tab Button -->
-                    <!-- Start Tab Content -->
-                    <div class="tab-content animated tab-bounceIn solid-prof-orange light-text pos-top-100">
-                        <p class="title">Site Selection &amp; Partner Sourcing</p>
-                        <p class="closebt"><label for="close_tabion"><img src="images/demo/close.png" alt="close button" /></label></p>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Research</li> 
-                            <li>Source</li>
-                            <li>Summarize Availability</li>
-                        </ul>
-                        </div>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Negotiate</li> 
-                            <li>Contract</li>
-                            <li>Risk Management</li>
-                        </ul>
-                        </div>
-                    </div>
-                    <!-- End Tab Content -->
-            </div></li>
-                <!-- End Tab 2 -->
 
-                <!-- Start Tab 3 -->
-                <li>
-            <input type="radio" name="tabion" id="tab13" class="none">
-            <div>
-                    <!-- Start Tab Button -->
-                <label for="tab13" class="tabtile tabtile-small solid-prof-blue hovershadow-blue active-sd-blue light-text pos-left-200">
-                        <span class="light-text">Program Development &amp; Management</span>
-                    </label>
-                    <!-- End Tab Button -->
-                    <!-- Start Tab Content -->
-                    <div class="tab-content animated tab-flipInY solid-prof-blue light-text pos-top-100">
-                        <p class="title">Program Development &amp; Management</p>
-                        <p class="closebt"><label for="close_tabion"><img src="images/demo/close.png" alt="close button" /></label></p>
-                        <div class="col-md-6">
-                        <ul>
-                           <li>Program Agenda</li>
-                           <li>Overall Budget</li>
-                           <li>Business Content</li>
-                           <li>Meeting/Event Space</li>
-                           <li>Transportation</li>
-                           <li>Accommodations Management</li>
-                           <li>Food &amp; Beverage</li>
-                           <li>Audio Visual</li>
-                        </ul>
-                        </div>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Risk Management</li>
-                            <li>Exhibits</li>
-                            <li>Activities/Team Building</li>
-                            <li>Corporate Social Responsibility</li>
-                            <li>Decor</li>
-                            <li>Entertainment</li>
-                            <li>Speakers</li>
-                            <li>Gifts</li>
-                        </ul>
-                        </div> 
+              <!-- Start tab 1 -->
+                <div class="collapse-card">
+                  <div class="collapse-card__heading">
+                    <div class="collapse-car__title">
+                      <!-- <i class="fa fa-question-circle fa-2x fa-fw"></i> -->
+                        Defining Goals &amp; Objectives
                     </div>
-                    <!-- End Tab Content -->
-            </div>
-            </li>
-                <!-- End Tab 3 -->
+                  </div>
+                  <div class="collapse-card__body">
+                    <ul>
+                      <li>Company</li> 
+                      <li>Leadership</li> 
+                      <li>Planning Team</li>
+                      <li>Participants</li>
+                      <li>Financial</li>
+                    </ul>
 
-                <!-- Start Tab 4 -->
-                <li>
-            <input type="radio" name="tabion" id="tab14" class="none" checked>
-            <div>
-                    <!-- Start Tab Button -->
-                <label for="tab14" class="tabtile tabtile-small solid-prof-teal hovershadow-red active-sd-red light-text pos-left-300">
-                        <span class="light-text">Marketing &amp; Communication</span>
-                    </label>
-                    
-                    <!-- End Tab Button -->
-                    
-                    <!-- Start Tab Content -->
-                    <div class="tab-content animated tab-lightSpeedIn solid-prof-teal light-text pos-top-100">
-                        <p class="title">Marketing &amp; Communication</p>
-                        <p class="closebt"><label for="close_tabion"><img src="images/demo/close.png" alt="close button" /></label></p>
-                        <div class="col-md-6">
-                        <ul>
-                           <li>Branding</li>
-                           <li>Pre-Trip Teasers/Announcements</li>
-                           <li>Website Development</li>
-                           <li>Online Registration</li>
-                           <li>Pre-Event Mailer</li>
-                           <li>Program App</li>
-                           <li>Know Before You Go</li>
-                        </ul>
-                        </div>
-                        <div class="col-md-6">
-                        <ul>
-                           <li>On-Site Packets &amp; Reminders</li>
-                           <li>Gamefication</li>
-                           <li>VIP/Hosts</li>
-                           <li>Volunteer</li>
-                           <li>Exhibitor</li>
-                           <li>Sponsor</li>
-                        </ul>
-                        </div>
+                    <ul>
+                      <li>Sponsorship</li>
+                      <li>Attendance</li>
+                      <li>Education/Skills</li>
+                      <li>Public Relations</li>
+                      <li>Brand Awareness</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Start tab 2 -->
+                <div class="collapse-card">
+                  <div class="collapse-card__heading">
+                    <div class="collapse-car__title">
+                      <!-- <i class="fa fa-question-circle fa-2x fa-fw"></i> -->
+                        Site Selection &amp; Partner Sourcing
                     </div>
-                    <!-- End Tab Content -->
-            </div>
-            </li>
-                <!-- End Tab 4 -->
-                
-                <!-- Start Tab 5 -->
-                <li>
-            <input type="radio" name="tabion" id="tab15" class="none">
-            <div>
-                    <!-- Start Tab Button -->
-                <label for="tab15" class="tabtile tabtile-small solid-prof-pink hovershadow-red active-sd-red light-text pos-left-400">
-                        <span class="light-text">On-Site Leadership &amp; Logistics</span>
-                    </label>
-                    
-                    <!-- End Tab Button -->
-                    
-                    <!-- Start Tab Content -->
-                    <div class="tab-content animated tab-flipInX solid-prof-pink light-text pos-top-100">
-                        <p class="title">On-Site Leadership &amp; Logistics</p>
-                        <p class="closebt"><label for="close_tabion"><img src="images/demo/close.png" alt="close button" /></label></p>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Pre-Event</li>
-                            <li>VIPs</li>
-                            <li>Arrivals/Departures</li>
-                            <li>Hospitality</li>
-                            <li>Staffing</li>
-                            <li>Rehearsals</li>
-                            <li>General Session</li>
-                            <li>Breakouts</li>
-                            <li>Exhibit Hall</li>
-                            <li>Audio Visual</li>
-                        </ul>
-                        </div>
-                        <div class="col-md-6">
-                        <ul>
-                            <li>Events</li>
-                            <li>Activities/Team</li>
-                            <li>Building</li>
-                            <li>Food &amp; Beverage</li>
-                            <li>Housekeeping</li>
-                            <li>Porterage</li>
-                            <li>Budget Reviews</li>
-                            <li>Shipping</li>
-                            <li>Risk Management</li>
-                            <li>Post-Event</li>
-                        </ul>
-                        </div>
+                  </div>
+                  <div class="collapse-card__body">
+                    <ul>
+                        <li>Research</li> 
+                        <li>Source</li>
+                        <li>Summarize Availability</li>
+                    </ul>
+                    <ul>
+                        <li>Negotiate</li> 
+                        <li>Contract</li>
+                        <li>Risk Management</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Start tab 3 -->
+                <div class="collapse-card">
+                  <div class="collapse-card__heading">
+                    <div class="collapse-car__title">
+                      <i class="fa fa-question-circle fa-2x fa-fw"></i>
+                        Program Development &amp; Management
                     </div>
-                    <!-- End Tab Content -->
-            </div>
-            </li>
-                <!-- End Tab 5 -->
+                  </div>
+                  <div class="collapse-card__body">
+                    <ul>
+                       <li>Program Agenda</li>
+                       <li>Overall Budget</li>
+                       <li>Business Content</li>
+                       <li>Meeting/Event Space</li>
+                       <li>Transportation</li>
+                       <li>Accommodations Management</li>
+                       <li>Food &amp; Beverage</li>
+                       <li>Audio Visual</li>
+                    </ul>
+                    <ul>
+                        <li>Risk Management</li>
+                        <li>Exhibits</li>
+                        <li>Activities/Team Building</li>
+                        <li>Corporate Social Responsibility</li>
+                        <li>Decor</li>
+                        <li>Entertainment</li>
+                        <li>Speakers</li>
+                        <li>Gifts</li>
+                    </ul>
+                  </div>
+                </div>
 
-                <!-- Start Tab 6 -->
-                <li>
-            <input type="radio" name="tabion" id="tab16" class="none" checked>
-            <div>
-                    <!-- Start Tab Button -->
-                <label for="tab16" class="tabtile tabtile-small solid-prof-gold hovershadow-orange active-sd-orange light-text pos-left-500">
-                        <span class="light-text">Fiscal Responsibility &amp; Return on Investment</span>
-                    </label>
-                    
-                    <!-- End Tab Button -->
-                    
-                    <!-- Start Tab Content -->
-                    <div class="tab-content animated tab-lightSpeedIn solid-prof-gold light-text pos-top-100">
-                        <p class="title">Fiscal Responsibility &amp; Return on Investment</p>
-                        <p class="closebt"><label for="close_tabion"><img src="images/demo/close.png" alt="close button" /></label></p>
-                        <div class="col-md-6">
-                        <ul>
-                           <li>Accounts Receivable</li>
-                           <li>Accounts Payable</li>
-                           <li>Master Account Management</li>
-                           <li>Surveys</li>
-                        </ul>
-                        </div>
-                        <div class="col-md-6">
-                        <ul>
-                           <li>Budget Review</li>
-                           <li>Data Retrieval</li>
-                           <li>Analysis</li>
-                        </ul>
-                        </div>
+                <!-- Start tab 4 -->
+                <div class="collapse-card">
+                  <div class="collapse-card__heading">
+                    <div class="collapse-car__title">
+                      <i class="fa fa-question-circle fa-2x fa-fw"></i>
+                        Marketing &amp; Communication
                     </div>
-                    <!-- End Tab Content -->
-            </div>
-            </li>
-                <!-- End Tab 6 -->
+                  </div>
+                  <div class="collapse-card__body">
+                    <ul>
+                       <li>Branding</li>
+                       <li>Pre-Trip Teasers/Announcements</li>
+                       <li>Website Development</li>
+                       <li>Online Registration</li>
+                       <li>Pre-Event Mailer</li>
+                       <li>Program App</li>
+                       <li>Know Before You Go</li>
+                    </ul>
+                    <ul>
+                       <li>On-Site Packets &amp; Reminders</li>
+                       <li>Gamefication</li>
+                       <li>VIP/Hosts</li>
+                       <li>Volunteer</li>
+                       <li>Exhibitor</li>
+                       <li>Sponsor</li>
+                    </ul>
+                  </div>
+                </div>
 
-            </ul>
-          
-            <!-- Radio is used to close tabion content -->
-            <input type="radio" name="tabion" class="none" id="close_tabion">
-            
-            <!-- END TABION -->
-            <div class="clearspace"></div>
+                <!-- Start tab 5 -->
+                <div class="collapse-card">
+                  <div class="collapse-card__heading">
+                    <div class="collapse-car__title">
+                      <i class="fa fa-question-circle fa-2x fa-fw"></i>
+                        On-Site Leadership &amp; Logistics
+                    </div>
+                  </div>
+                  <div class="collapse-card__body">
+                    <ul>
+                        <li>Pre-Event</li>
+                        <li>VIPs</li>
+                        <li>Arrivals/Departures</li>
+                        <li>Hospitality</li>
+                        <li>Staffing</li>
+                        <li>Rehearsals</li>
+                        <li>General Session</li>
+                        <li>Breakouts</li>
+                        <li>Exhibit Hall</li>
+                        <li>Audio Visual</li>
+                    </ul>
+                    <ul>
+                        <li>Events</li>
+                        <li>Activities/Team</li>
+                        <li>Building</li>
+                        <li>Food &amp; Beverage</li>
+                        <li>Housekeeping</li>
+                        <li>Porterage</li>
+                        <li>Budget Reviews</li>
+                        <li>Shipping</li>
+                        <li>Risk Management</li>
+                        <li>Post-Event</li>
+                    </ul>
+                  </div>
+                </div>
 
+                <!-- Start tab 6 -->
+                <div class="collapse-card">
+                  <div class="collapse-card__heading">
+                    <div class="collapse-car__title">
+                      <i class="fa fa-question-circle fa-2x fa-fw"></i>
+                        Fiscal Responsibility &amp; Return on Investment
+                    </div>
+                  </div>
+                  <div class="collapse-card__body">
+                  <ul>
+                     <li>Accounts Receivable</li>
+                     <li>Accounts Payable</li>
+                     <li>Master Account Management</li>
+                     <li>Surveys</li>
+                  </ul>
+                  <ul>
+                     <li>Budget Review</li>
+                     <li>Data Retrieval</li>
+                     <li>Analysis</li>
+                  </ul>
+                  </div>
+                </div>
           </div>
         </div>
       </section>
-
 
       <!-- Benefits of Partnership -->
       <section id="benefits" class="section-gray">
@@ -458,7 +378,7 @@
                 </div>
 
                 <div class="col-md-3">
-                  <h1 class="text-center tipping-header">Alone</h1>
+                  <h1 class="text-center tipping-header">On Own</h1>
                   <ul>
                     <li>Under Staffed</li>
                     <li>Internally Focused</li> 
@@ -856,6 +776,13 @@
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
+    <script src="js/paper-collapse.js"></script>
+    <script>
+      $(function () {
+        $(".collapse-card").paperCollapse();
+        console.log($(".collapse-card"));
+      });
+    </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
     <!---->
     <script>
