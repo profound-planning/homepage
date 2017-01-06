@@ -561,9 +561,25 @@ SERVICES / INTEGRATIONS
 #leadership div.box-services p, #awards div.box-services p {
   color: #000;
 }
+.collapse-card__heading {
+  background-color: #f16522;
+}
+.collapse-card__body {
+  background-color: #fde8de;
+  border: 3px solid #f16522;
+}
 .collapse-card__body ul {
   display: inline-block;
   width: 48%;
+}
+.collapse-car__title {
+  color: #fff;
+}
+.collapse-car__title span {
+  margin-left:15px;
+}
+.collapse-car__title i {
+  color: #fff;
 }
 section#leadership {
     background-image: url('../img/LeftGlobe_Green_Background.png');

@@ -51,7 +51,7 @@
   float: left;
 }
 .collapse-card__heading::after {
-  color: #404040;
+  color: #fff;
   font-family: 'FontAwesome';
   font-size: 1rem;
   line-height: 2rem;
