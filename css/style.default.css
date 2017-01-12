@@ -26,6 +26,22 @@ body {
 header {
   z-index: 1000;
 }
+.c-primary {
+  color: #a5cd39;
+}
+.c-secondary {
+  color: #f16522;
+}
+.c-third {
+  color: #33334d;
+}
+.italic {
+  font-style: italic;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+.bold {
+    font-weight: 700;
+}
 section {
   position: relative;
   padding-top: 90px;
@@ -60,13 +76,6 @@ section.background-secondary {
 }
 .section-header {
     padding-bottom: 5%
-}
-.italic {
-  font-style: italic;
-  font-family: "Georgia", "Times New Roman", Times, serif;
-}
-.bold {
-    font-weight: 700;
 }
 .p-orange {
     color: #f16522;
@@ -540,6 +549,7 @@ SERVICES / INTEGRATIONS
   font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
+  color: #33334d;
 }
 .services .heading:after {
   content: " ";
@@ -559,7 +569,7 @@ SERVICES / INTEGRATIONS
   color: #33334d;
 }
 #leadership div.box-services p, #awards div.box-services p {
-  color: #000;
+  color: #33334d;
 }
 .collapse-card__heading {
   background-color: #f16522;
